@@ -6,7 +6,7 @@ function initializeGA() {
             m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
     })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-    let gaCode = 'UA-146292002-1'
+    let gaCode = 'UA-12345-6'
 
     ga('create', gaCode, 'auto');
     ga('send', 'pageview', location.pathname);
